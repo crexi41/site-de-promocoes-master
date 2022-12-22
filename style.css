@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .topo { 
+    margin: auto;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;    
+    text-align: center;
+    border-radius: 25px;
+} */
+
+body {
+   display: block;
+   text-align: center;
+   background: url(./imagens/natal\ azul.jpg);
+   /* background: linear-gradient(#ffffff, #054511, #000000); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.mestre section {
+       margin: 0 auto;    
+} 
+
+.op {   
+    width: 440px;    
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px 10px;
+    /* background: yellow; */
+    /* background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%); */
+    border: none;
+    border-radius: 10px;
+
+}
+
+.op p {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.seta {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: -40px;
+    width: 450px;   
+}
+
+.divisor {
+    margin: auto;
+    /* background: rgba(12, 225, 83, 0.829);        */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;    
+    text-align: center;
+    border-radius: 25px;
+}
+
+.divisor p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+
+.topo p {
+    font-weight: bold;
+    font-size: 42px;
+    color: black;
+}
+
+/* .quadro {
+    margin: 0 auto;
+    text-align: center;
+} */
+
+.quadro img {
+   height: 70px;
+}
+
+.quadro li {
+    display: inline-block;
+    vertical-align: top 20px;
+    margin: 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background: white;
+    width: 150px;
+    border-radius: 25px;
+    margin-bottom: 15px; 
+}
+
+.quadro p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+.quadro2 {
+    margin: 0 auto;
+    text-align: center;
+} */
+
+/* .quadro2 img {
+    margin-top: 20PX;
+    width: 400px;
+    border-radius: 20px;
+} */
+
+ .preco sup {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.preco span {
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: top;
+    
+} 
+
+.quadro li:hover {
+    box-shadow: 0 0 50px white, 0 0 50px white
+    , 0 0 100px white;
+    background: white;
+    transform: scale(1.1);
+}     
+
+.clique {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+button {
+    width: 300px;    
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px 10px;
+    background: rgba(177, 177, 66, 0);
+    /* background-color: rgb(237, 122, 122); */
+    /* background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%); */
+    border: none;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
